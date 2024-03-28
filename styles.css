@@ -1,0 +1,105 @@
+.main_content{
+
+    width: 1024px;
+    height: 1100px;
+   
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.header{
+    width: 1024px;
+    height: 100px;
+    background-color: aliceblue;
+}
+.logo{
+
+    width: 20%;
+    height: 100%;
+    background-color: blanchedalmond;
+    float: left;
+}
+.menu{
+
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.menu ul li{
+
+    display: inline-block;
+    padding: 10px;
+    margin-top: 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+.menu ul li a:hover{
+    font-size: 35px;
+
+}
+.slider{
+
+    background-color: bisque;
+    width: 100%;
+    height: 300px;
+}
+.content{
+    width: 100%;
+    height: 200px;
+
+}
+.footer{
+    width: 100%;
+    height: 200px;
+
+}
+.col1{
+    width: 33%;
+    height: 100%;
+    background-color: orange;
+    float: left;
+    border-radius: 15px;
+    margin-right: 2px;
+}
+.col2{
+    width: 33%;
+    height: 100%;
+    background-color:  burlywood;
+    float: left;
+    border-radius: 15px;
+    margin-right: 2px;
+}
+.col3{
+    width: 33.33%;
+    height: 100%;
+    background-color: gainsboro;
+    float: left;
+    border-radius: 15px;
+}
+.wel_content{
+    width: 100%;
+    height: 270px;
+}
+.wel_text{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+.wel_img{
+    width: 50%;
+    height: 100%;
+    background-image: url('../images/about-us.jpg');
+    float: left;
+}
+.wel_text p{
+    padding: 20px;
+}
